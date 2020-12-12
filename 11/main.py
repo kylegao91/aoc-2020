@@ -79,5 +79,5 @@ if __name__ == '__main__':
     NUM_ROWS = len(init_state)
     NUM_COLS = len(init_state[0])
 
-    # print(count_occupied(solve(init_state, 4)))
+    print(count_occupied(solve(init_state, 4)))
     print(count_occupied(solve(init_state, 5, True)))
