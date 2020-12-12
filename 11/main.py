@@ -7,7 +7,6 @@ STEPS = list(zip(STEP_X, STEP_Y))
 FLOOR = '.'
 EMPTY = 'L'
 OCCUPIED = '#'
-CAN_BE_SEEN = '*'
 
 NUM_ROWS = 0
 NUM_COLS = 0
