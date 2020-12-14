@@ -68,7 +68,7 @@ if __name__ == '__main__':
     print(min_wait * bus_id)
 
     # Solve linear modular equations
-    # s_0 * x = s_i - i (mode s_i)
+    # s_0 * x = s_i - i (mod s_i)
     #   where s_i is the interval of bus_i and i in 0..#buses
     a = []
     b = []
